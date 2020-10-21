@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>View in Map</title>
+    <link rel="stylesheet" href="MapMarker.css">
+    <script src="MapMarker.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+
+  </head>
+  <body>
+
+    <div id="floating-panel">
+      <input onclick="clearMarkers();" type="button" value="Hide Markers" />
+      <input onclick="showMarkers();" type="button" value="Show All Markers" />
+    </div>
+
+    <div id="map"></div>
+
+    <div id="display-content">"Hello"</div>
+
+  </body>
+</html>
