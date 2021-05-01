@@ -1,0 +1,59 @@
+<html>  
+    <head><title>  Registration Page  </title>
+        <style>
+            label {
+                color: white;
+            }
+        </style>
+    
+    </head>  
+    <body style="background-color: black;">  <br><br>  
+        <h1 style="color: white;"> <center> Register Form </center> </h1><br><br>
+        
+		<form>  
+  
+			<label><strong> Firstname:  </strong></label>         
+				<input type="text" name="firstname" placeholder="Enter FirstName" size="15"> <br> <br>  
+			<label><strong> Lastname : </strong></label>         
+				<input type="text" name="lastname" placeholder="Enter LastName" size="15"> <br> <br>  
+  
+			<label><strong> Country </strong></label>   
+				<select>  
+					<option value="India">India</option>  
+					<option value="Africa">Africa</option>  
+					<option value="China">China</option>  
+					<option value="UK">UK</option>  
+					<option value="US">US</option>  
+					<option value="Korea">Korea</option>  
+					<option value="Taiwan">Taiwan</option> 
+					checked="India"
+				</select>  
+  				<br> <br>  
+			<label><strong> Gender :  </strong></label><br>  
+				<input type="radio" name="male"/> <label>Male</label> <br>  
+				<input type="radio" name="female"/> <label>Female</label> <br>  
+				<input type="radio" name="trans"/> <label>Other</label>  
+				<br> <br>  
+			<label><strong for="birthday">Date of Birth: </strong></label>
+				<input type="date" id="birthday" name="birthday">
+				<br><br>
+
+			<label><strong> Phone :  </strong></label>  
+				<input type="text" name="code"  value="+91" size="2"/>   
+				<input type="text" name="phone" size="10"/> <br> <br>  
+			<label><strong> Address:
+				<br>  
+				<textarea cols="80" rows="5" placeholder="Enter Your Address" value="address"> </textarea>  
+				<br> <br>  
+			<label><strong> Email: </strong></label> 
+				<input type="email" id="email" name="email"/> <br>    
+				<br> <br>  
+			<label><strong> Password: </strong></label>
+				<input type="Password" id="pass" name="pass"> <br>   
+				<br> <br>  
+			<label><strong> Re-type password: </strong></label>  
+				<input type="Password" id="repass" name="repass"> <br> <br>  
+			<input type="button" value="Submit"/>  
+		</form>  
+	</body>  
+</html>
